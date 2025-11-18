@@ -1,6 +1,6 @@
-//package net.engineeringdigest.journalApp.Controller;
+//package ares.javaProject.journalApp.Controller;
 //
-//import net.engineeringdigest.journalApp.Entity.JournalEntry;
+//import Entity.ares.javaProject.journalApp.JournalEntry;
 //import org.springframework.web.bind.annotation.*;
 //
 //import java.util.ArrayList;
@@ -38,10 +38,10 @@
 //
 //*****************************************
 //second updated code
-//        package net.engineeringdigest.journalApp.Controller;
+//        package ares.javaProject.journalApp.Controller;
 //
-//import net.engineeringdigest.journalApp.Entity.JournalEntry;
-//import net.engineeringdigest.journalApp.Service.JournalEntryService;
+//import Entity.ares.javaProject.journalApp.JournalEntry;
+//import Service.ares.javaProject.journalApp.JournalEntryService;
 //import org.bson.types.ObjectId;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.http.HttpStatus;

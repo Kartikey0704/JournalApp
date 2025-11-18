@@ -1,9 +1,7 @@
-package net.engineeringdigest.journalApp.Service;
+package ares.javaProject.journalApp.Service;
 
-import net.engineeringdigest.journalApp.Entity.JournalEntry;
-import net.engineeringdigest.journalApp.Entity.User;
-import net.engineeringdigest.journalApp.repository.JournalEntryRepository;
-import net.engineeringdigest.journalApp.repository.UserRepository;
+import ares.javaProject.journalApp.Entity.User;
+import ares.javaProject.journalApp.repository.UserRepository;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

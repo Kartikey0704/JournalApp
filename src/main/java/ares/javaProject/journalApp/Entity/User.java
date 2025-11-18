@@ -1,4 +1,4 @@
-package net.engineeringdigest.journalApp.Entity;
+package ares.javaProject.journalApp.Entity;
 
 import lombok.Data;
 import lombok.NonNull;
@@ -16,12 +16,12 @@ import java.util.List;
 public class User {
     @Id
     private ObjectId id;
-    @Indexed(unique = true)
-    @NonNull
+    @Indexed(unique = true)//for checking username to be unique
+    @NonNull//lambok annotation throughs NPE if null
     private String userName;
     @NonNull
     private String password;
-    @DBRef
+    @DBRef//to map journal_entries, act lies a foreign key b/w the two collections
     private List<JournalEntry> journalEntries = new ArrayList<>();
 
 }
