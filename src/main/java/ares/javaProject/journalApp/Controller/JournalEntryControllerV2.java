@@ -2,8 +2,8 @@ package ares.javaProject.journalApp.Controller;
 
 import ares.javaProject.journalApp.Entity.JournalEntry;
 import ares.javaProject.journalApp.Entity.User;
-import ares.javaProject.journalApp.Service.JournalEntryService;
-import ares.javaProject.journalApp.Service.UserService;
+import ares.javaProject.journalApp.service.JournalEntryService;
+import ares.javaProject.journalApp.service.UserService;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

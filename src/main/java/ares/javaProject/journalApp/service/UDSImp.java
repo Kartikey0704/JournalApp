@@ -1,4 +1,4 @@
-package ares.javaProject.journalApp.Service;
+package ares.javaProject.journalApp.service;
 
 import ares.javaProject.journalApp.Entity.User;
 import ares.javaProject.journalApp.repository.UserRepository;
@@ -13,8 +13,8 @@ public class UDSImp implements UserDetailsService {
     @Autowired
     private UserRepository userRepository;
     @Override
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException{
-        User user = userRepository.findByUserName(username);
+    public UserDetails loadUserByUsername(String userName) throws UsernameNotFoundException{
+        User user = userRepository.findByUserName(userName);
         if(user!=null){
             return org.springframework.security.core.userdetails.User.builder()
                     .username(user.getUserName())
@@ -22,6 +22,6 @@ public class UDSImp implements UserDetailsService {
                     .roles(user.getRoles().toArray(new String[0]))
                     .build();
         }
-        throw new UsernameNotFoundException("Username not found"+username);
+        throw new UsernameNotFoundException("Username not found"+userName);
     }
 }

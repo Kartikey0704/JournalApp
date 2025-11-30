@@ -1,4 +1,4 @@
-package ares.javaProject.journalApp.Service;
+package ares.javaProject.journalApp.service;
 
 import ares.javaProject.journalApp.Entity.JournalEntry;
 import ares.javaProject.journalApp.Entity.User;

@@ -1,6 +1,6 @@
 package ares.javaProject.journalApp.config;
 
-import ares.javaProject.journalApp.Service.UDSImp;
+import ares.javaProject.journalApp.service.UDSImp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
