@@ -23,5 +23,6 @@ public class User {
     private String password;
     @DBRef//to map journal_entries, act lies a foreign key b/w the two collections
     private List<JournalEntry> journalEntries = new ArrayList<>();
+    private List<String> roles;//for authorization
 
 }
